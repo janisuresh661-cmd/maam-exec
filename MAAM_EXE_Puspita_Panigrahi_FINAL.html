@@ -106,4 +106,26 @@ in the memories of her students.</span>
 </div></section>
 
 <div class="footer">MAAM.EXE • Ideal Computer Education • Evening Batch 17:00 • Made with ❤️ by Sukesh, Akanksha, Ayush 1, Ayush 2, Aisha, Rahul, Vijaya, Tukant, Nisha, Raja & Barsha</div>
-</div></body></html>
+</div>
+  <audio id="birthdayMusic" loop>
+  <source src="happy_birthday_on_piano.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  const music = document.getElementById("birthdayMusic");
+
+  // Try to start automatically
+  window.addEventListener("load", () => {
+    music.play().catch(() => {});
+  });
+
+  // Start music on the first touch/click if autoplay is blocked
+  document.addEventListener("click", () => {
+    music.play().catch(() => {});
+  }, { once: true });
+
+  document.addEventListener("touchstart", () => {
+    music.play().catch(() => {});
+  }, { once: true });
+</script>
+</body></html>
