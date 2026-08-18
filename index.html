@@ -5,7 +5,18 @@
 :root{--bg:#030711;--panel:#07111f;--line:#173452;--cyan:#5ce8ff;--green:#72ff9d;--pink:#ff78d6;--text:#dcecff;--muted:#7d96ad}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 0,#102946 0,#030711 48%,#010208 100%);color:var(--text);font-family:"Courier New",monospace;line-height:1.65}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.045;background:repeating-linear-gradient(0deg,transparent 0 2px,#fff 3px 3px)}
 .wrap{max-width:920px;margin:auto;padding:20px 15px 60px}.terminal{margin:20px 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:rgba(5,12,23,.92);box-shadow:0 0 35px #000}.bar{height:36px;background:#0a1727;border-bottom:1px solid var(--line);display:flex;align-items:center;padding-left:13px;gap:7px}.dot{width:10px;height:10px;border-radius:50%;background:#40546a}.dot:nth-child(1){background:#ff6969}.dot:nth-child(2){background:#ffd166}.dot:nth-child(3){background:#70ff9c}.content{padding:25px}h1{font-size:clamp(38px,10vw,78px);margin:8px 0;color:var(--cyan);text-shadow:0 0 22px #1b8fa5}h2{color:var(--green);font-size:22px}pre{white-space:pre-wrap}.cyan{color:var(--cyan)}.green{color:var(--green)}.pink{color:var(--pink)}.muted{color:var(--muted)}.center{text-align:center}.card{border:1px solid var(--line);border-radius:11px;padding:18px;margin:14px 0;background:#081523}.msg{border-left:3px solid var(--cyan);padding:15px 18px;margin:14px 0;background:#071422}.name{color:var(--pink);font-weight:bold}.quote{font-size:18px;color:#eefaff}.footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px}.blink{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+.maam-photo {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 2px solid #5ce8ff;
+    box-shadow: 0 0 25px rgba(92, 232, 255, 0.4);
+}
 </style></head><body><div class="wrap">
+  <img src="maam.png" alt="Puspita Panigrahi" class="maam-photo">
 
 <section class="terminal"><div class="bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="content center">
 <div class="muted">$ boot --birthday-memory</div><h1>MAAM.EXE</h1>
